@@ -1,0 +1,50 @@
+/* nav */
+@media(min-width:320px)and (max-width:800px){ */
+    .navbar-toggler{
+        border:0;
+        box-shadow: none !important;}
+        
+    }
+    /* nav ends */
+    /* banner */
+    @media(max-width:991px){
+        .button{
+            padding:8px 20px;
+            border-radius:10px;
+            font-size:10px;
+
+        }
+        .bannercnt h4{
+            font-size:15px;
+        }
+        .bannercnt h1{
+            font-size:34px;
+        }
+        .bannercnt p{
+            font-size:15px;
+        }
+        .bannercnt svg{
+            height:16px;
+            width:16px;
+        }
+        .image img{
+            max-width:100%;
+        }
+
+
+    }
+   /* banner ends */
+   /* about  */
+   @media(min-width:320px)and(max-width:991px){
+    #about .image{
+        max-width:100%;
+        transform:scalex(-1)
+
+    }
+   }
+   @media(max-width:991px){
+      
+    }
+   
+   /* about ends */
+   /* branding start */
